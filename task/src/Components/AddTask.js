@@ -15,7 +15,7 @@ function AddTask({ onAdd }) {
     onAdd({ text, day, reminder })
     setDay('')
     setText('')
-    setReminder(false)
+    setReminder(true)
   }
   const [text, setText] = useState('')
   const [day, setDay] = useState('')
