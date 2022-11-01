@@ -29,7 +29,7 @@ body {
 
 .btn {
   display: inline-block;
-  background: rgb(5, 5, 5);
+  background: rgb(4, 161, 25);
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -82,7 +82,9 @@ body {
 .form-control label {
   display: block;
 }
-
+.btn-block{
+  background-color: black;
+}
 .form-control input {
   width: 100%;
   height: 40px;
